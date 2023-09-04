@@ -22,7 +22,6 @@ const divderStyle = {
 };
 
 const MovieItem = ({ movies }) => {
-  console.log(movies);
   return (
     <Box sx={cardStyle}>
       <Grid container spacing={3}>
